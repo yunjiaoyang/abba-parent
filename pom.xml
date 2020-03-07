@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.abba</groupId>
+        <artifactId>abba-dependencies</artifactId>
+        <version>2.2.4-SNAPSHOT</version>
+        <relativePath/>
+    </parent>
+
+    <artifactId>abba-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>Abba Parent</name>
+    <description>Abba Parent</description>
+    <url>https://github.com/yunjiaoyang/abba-parent</url>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/yunjiaoyang/abba-parent</url>
+        <connection>
+            scm:git://github.com/yunjiaoyang/abba-parent.git
+        </connection>
+        <developerConnection>
+            scm:git:ssh://github.com/yunjiaoyang/abba-parent.git
+        </developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>yangyunjiao</name>
+            <email>yangyunjiao@outlook.com</email>
+			<organization>Abba</organization>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+
+</project>
